@@ -17,8 +17,8 @@ Database Structure The PostgreSQL database for this project includes the followi
 The system uses vite + react ,variant JavaScript framework
 How to 
 1.Install node js and Install postgres table structure provided at the end.
-2.extract the zip file.
-3.open VScode and add the folder -->Cookstove Management System.
+2.clone this repo
+3.open VScode and add the folder.
 4.open the terminal and cd to client> cd .\Client\
 5. then> npm run dev
 6. add another terminal tab and cd server> cd .\Server\
