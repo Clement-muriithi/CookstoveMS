@@ -1,0 +1,27 @@
+ul li :hover {
+  background-color: "#82b74b" y;
+}
+
+.employee_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+}
+
+.emp_det_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.loginPage {
+  background: linear-gradient(rgb(255, 127, 80), rgba(29, 231, 46, 0.5)),
+    url("Images/cook7.jpeg");
+  background-position: flex-end;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.loginForm {
+  background-color: transparent;
+  color: rgba(255, 255, 255);
+}
