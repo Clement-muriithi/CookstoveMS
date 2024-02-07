@@ -10,7 +10,7 @@ Met requirements Backend (Node.js with Express):RESTful API for managing cooksto
 
 
 
-Database Structure The PostgreSQL database for this project includes the following tables: admin category cookstove employee 
+
 
 
 #Cookstove Management System
@@ -22,10 +22,12 @@ How to
 4.open the terminal and cd to client> cd .\Client\
 5. then> npm run dev
 6. add another terminal tab and cd server> cd .\Server\
-7. then> npm run start 
+7. then> npm run start
 
-Run the commands and create a relationship between table category id and table employee category id.
+Database Structure;
+The PostgreSQL database for this project name is cookstoves and includes the following tables: admin,category, cookstove, employee 
 
+CREATE DATABASE cookstoves;
 
 CREATE TABLE admin (
 id SERIAL PRIMARY KEY,
@@ -63,4 +65,5 @@ CREATE TABLE employee (
   address varchar(30) NOT NULL,
   image varchar(60) NOT NULL,
   category_id int NOT NULL
-)
+);
+Run the commands and create a relationship between table category id and table employee category id.
