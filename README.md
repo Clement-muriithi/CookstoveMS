@@ -16,7 +16,7 @@ Met requirements Backend (Node.js with Express):RESTful API for managing cooksto
 #Cookstove Management System
 The system uses vite + react ,variant JavaScript framework
 How to 
-1.Install node js and Install postgres table structure provided at the end.
+1.Install node js and Install postgres (table structure provided at the end).
 2.clone this repo
 3.open VScode and add the folder.
 4.open the terminal and cd to client> cd .\Client\
