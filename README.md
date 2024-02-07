@@ -25,7 +25,7 @@ How to
 7. then> npm run start
 
 Database Structure;
-The PostgreSQL database for this project name is cookstoves and includes the following tables: admin,category, cookstove, employee 
+The PostgreSQL database for this project name is cookstoves and includes the following tables: admin,category, cookstove and employee 
 
 CREATE DATABASE cookstoves;
 
@@ -66,7 +66,7 @@ CREATE TABLE employee (
   image varchar(60) NOT NULL,
   category_id int NOT NULL
 );
-Run the commands and create a relationship between table category id and table employee category id.
+Run the commands above and create a relationship between table category id and table employee category id.
 
 ALTER TABLE cookstove
 ADD CONSTRAINT fk_category_id
