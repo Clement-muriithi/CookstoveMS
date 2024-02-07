@@ -67,3 +67,9 @@ CREATE TABLE employee (
   category_id int NOT NULL
 );
 Run the commands and create a relationship between table category id and table employee category id.
+
+ALTER TABLE cookstove
+ADD CONSTRAINT fk_category_id
+FOREIGN KEY (category_id)
+REFERENCES category(id);
+
